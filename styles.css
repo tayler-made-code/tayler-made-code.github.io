@@ -1,5 +1,9 @@
 /* Task 2 - Header & Banner */
 
+html * {
+  font-family:'Source Sans Pro';
+}
+
 body {
 	width: 100vw;
   height: 100vh;
@@ -11,7 +15,6 @@ body {
   margin: 0;
   background-color: #071629;
   overflow-x: hidden;
-  margin: auto;
 }
 
 header {
@@ -38,7 +41,6 @@ header {
 .link-block a {
   text-decoration: none;
   color: #FFF;
-  font-family: Source Sans Pro;
   font-size: 0.75rem;
   font-weight: 700;
   line-height: normal;
@@ -61,7 +63,6 @@ header {
   text-align: center;
 	font-size: 7.50rem;
   color: #FFF;
-  font-family: 'Source Sans 3', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -75,7 +76,6 @@ header {
   display: flex;
   justify-content: space-between;
 	color: #FFFFFF;
-  font-family: Source Sans Pro;
 	font-size: 1rem;
 	font-style: normal;
 	font-weight: 700;
@@ -104,17 +104,14 @@ header {
 .problocks h2 {
   color: #FFF;
   text-align: center;
-  font-family: Source Sans Pro;
   font-size: 2rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
-.problocks span {
+.emphasized {
   color: #C271FF;
-  text-align: center;
-  font-family: Source Sans Pro;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
@@ -144,7 +141,6 @@ header {
 
 .problock h3 {
   color: #FFF;
-  font-family: Source Sans Pro;
   text-align: center;
   font-size: 18px; 
   font-weight: 900;
@@ -155,7 +151,6 @@ header {
 
 .problock p {
   color: #FFF;
-  font-family: Source Sans Pro;
   font-size: 1rem;
   font-style: italic;
   font-weight: 400;
@@ -169,7 +164,7 @@ header {
 .quotesection {
   background-color: #C271FF;
   height: 24.5rem;
-  margin: -1.75rem;
+  margin-bottom: -1.75rem;
 }
 
 .quoteblock {
@@ -207,7 +202,6 @@ header {
 
 .tutorialsection h2 {
   padding-top: 5.44rem;
-  font-family: Source Sans Pro;
   font-size: 32px;
   font-weight: 300;
   line-height: 40px;
@@ -215,14 +209,7 @@ header {
   text-align: center;
 }
 
-.tutorialsection span {
-  color: #C271FF;
-  font-family: Source Sans Pro;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+/* span shared with Banner Section */
 
 .videoblock {
   display: flex;
@@ -246,23 +233,17 @@ header {
   flex-direction: column;
 }
 
-.video img {
-  border-radius: 0.3125rem;
+.videocontainer {
+  display: flex;
+  align-items: center;
 }
 
-.video h3 {
-  color: #071629;
-  font-family: Source Sans Pro;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding-left: 0.81rem;
+img[alt="playbutton"] {
+  margin-left: -10rem;
 }
 
 .video p {
   color: rgba(7, 22, 41, 0.50);
-  font-family: Source Sans Pro;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -295,26 +276,27 @@ header {
   text-align: left;
 }
 
+.videoinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.81rem;
+  margin-top: -1.5rem;
+}
+
 .stars {
   display: flex;
   justify-content: space-between;
   gap: .5rem;
 }
 
-.videoinfo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 0.81rem;
-}
-
 .videoinfo p {
   color: #C271FF;
-  font-family: Source Sans Pro;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
   line-height: 1.6875rem;
+  margin-top: 1rem;
 }
 
 /* Task 5 - Membership */
@@ -330,21 +312,13 @@ header {
 .membershipsection h2 {
   text-align: center;
   color: #FFF;
-  font-family: Source Sans Pro;
   font-size: 2rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
-.membershipsection span {
-  color: #C271FF;
-  font-family: Source Sans Pro;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+/* span shared with Banner Section */
 
 .memberships {
   display: flex;
@@ -366,7 +340,6 @@ header {
 
 .membershipcategory h3 {
   color: #FFF;
-  font-family: Source Sans Pro;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
@@ -375,7 +348,6 @@ header {
 
 .membershipcategory p {
   color: #FFF;
-  font-family: Source Sans Pro;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -400,7 +372,6 @@ header {
 .FAQsection h2 {
   color: #071629;
   text-align: center;
-  font-family: Source Sans Pro;
   font-size: 3.75rem;
   font-style: normal;
   font-weight: 300;
@@ -415,7 +386,6 @@ header {
 
 .FAQ h3 {
   color: #071629;
-  font-family: Source Sans Pro;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -424,7 +394,6 @@ header {
 
 .FAQ p {
   color: rgba(7, 22, 41, 0.50);
-  font-family: Source Sans Pro;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -468,7 +437,6 @@ footer {
 
 .footerdetails p {
   color: #FFF;
-  font-family: Source Sans Pro;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
