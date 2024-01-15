@@ -1,0 +1,17 @@
+.modalButton {
+  margin-top: 5rem;
+  width: 12rem;
+  height: 3rem;
+}
+
+.btnContainer {
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.modal-body {
+  height: 55rem;
+}

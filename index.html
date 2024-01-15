@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="/styles.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./images/greysquare.png">
+  <title>Græy Box</title>
+</head>
+<body class="bg-dark">
+
+  <!-- Hero Section -->
+
+  <header>
+    <div class="container mx-auto">
+      <h1 class="text-center text-white pt-5">Clearing up the Græy Areas</h1>
+      <p class="text-center text-white fs-5 pb-5">
+        Quickly transform information from the græy box into a live console experience
+      </p>
+      <button class="btn-light" id="resetText">Reset Text</button>
+      <button class="btn-light" id="clearText">Clear Text</button>
+    </div>
+  </header>
+
+  <!-- Input Section -->
+
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <div class="input-group mb-3 text-center">
+            <label for="userInput" class="text-white form-label">Place The Græy Box Info Here</label>
+            <textarea type="text" class="col-12 form-control-lg userInput" rows="15"></textarea>
+            <button class="col-12 btn btn-outline-secondary" type="button" id="nomNomNom">Nom Nom Nom</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Section -->
+
+  <section>
+    <div class="container">
+      <div class="row justify-content-center btnContainer">
+        <button type="button" class="btn btn-dark border-light modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal">example.c</button>
+      </div>
+    </div>
+    <div class="container newModalTarget">
+      <div class="modal fade bg-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">0-main.c</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalConsoleTarget">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" id="modalPlay">Play</button>
+              <button type="button" class="btn btn-light" id="modalCopy">Copy Main File</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/scripts.js"></script>
+</body>
+</html>
