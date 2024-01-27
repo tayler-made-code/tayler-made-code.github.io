@@ -124,7 +124,7 @@ img {
 }
 
 .bg-secondary {
-    background-color: #EBB500 !important;
+    background-color: #EB9D23 !important;
 }
 
 button:focus {
@@ -156,7 +156,7 @@ button:focus {
 
 .cube1,
 .cube2 {
-    background-color: #D7A100;
+    background-color: #EB9D23;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -243,7 +243,7 @@ button:focus {
 .section-title h2:before {
     left: auto;
     right: 50%;
-    background-color: #D7A100
+    background-color: #EB9D23
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -254,7 +254,7 @@ button:focus {
     transition: .3s;
 }
 .navbar-brand.logo img {
-    max-height: 40px;
+    max-height: 100px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -264,7 +264,7 @@ button:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link:hover,
 .navbar-expand-lg .navbar-nav .nav-link.active {
-    color: #D7A100;
+    color: #EB9D23;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -289,7 +289,7 @@ button:focus {
     bottom: 0;
     width: 50%;
     height: 100%;
-    background-color: #D7A100;
+    background-color: #EB9D23;
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     z-index: 2;
@@ -367,7 +367,7 @@ button:focus {
 }
 
 .single-featured-item-wrap:hover a {
-    color: #D7A100
+    color: #EB9D23
 }
 
 .single-featured-item-wrap:hover a:after {
@@ -391,7 +391,7 @@ button:focus {
     font-size: 60px;
     position: absolute;
     top: 0;
-    color: #D7A100;
+    color: #EB9D23;
     opacity: .5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
@@ -407,7 +407,7 @@ button:focus {
     position: relative;
     background-size: cover;
     background-position: center;
-    background-color: #D7A100;
+    background-color: #EB9D23;
 }
 
 .social-aria a {
@@ -450,7 +450,7 @@ button:focus {
 }
 
 .about-content h2 span {
-    color: #D7A100;
+    color: #EB9D23;
     font-size: 100%;
 }
 
@@ -465,7 +465,7 @@ button:focus {
 }
 
 .about-content h5 {
-    margin: 30px 0;
+    margin: 30px 0 0 0;
     text-transform: uppercase;
 }
 
@@ -500,7 +500,7 @@ button:focus {
 .skillbar-bar {
     height: 35px;
     width: 0px;
-    background-color: #D7A100;
+    background-color: #EB9D23;
 }
 
 .skill-bar-percent {
@@ -578,7 +578,7 @@ button:focus {
 }
 
 .service-area:before {
-    background-color: #D7A100;
+    background-color: #EB9D23;
     position: absolute;
     content: '';
     width: 100%;
@@ -594,7 +594,7 @@ button:focus {
 .single-service {
     background-color: #fff;
     padding: 15px;
-    border: 1px solid #D7A100;
+    border: 1px solid #EB9D23;
     -webkit-transition: .3s;
     transition: .3s;
     margin-bottom: 30px;
@@ -632,7 +632,7 @@ button:focus {
 
 .service-icon {
     font-size: 50px;
-    color: #D7A100;
+    color: #EB9D23;
 }
 
 
@@ -650,7 +650,7 @@ button:focus {
 
 .single-why-me:hover .why-me-icon {
     background-color: #000;
-    color: #D7A100;
+    color: #EB9D23;
 }
 
 .why-me-right .why-me-icon,
@@ -666,7 +666,7 @@ button:focus {
     right: 0;
     bottom: 0;
     display: inline-block;
-    background-color: #D7A100;
+    background-color: #EB9D23;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -716,8 +716,8 @@ button:focus {
 .work-list ul li.filter.active,
 .work-list ul li:hover {
     color: #000;
-    background-color: #D7A100;
-    border-color: #D7A100;
+    background-color: #EB9D23;
+    border-color: #EB9D23;
 }
 
 .row.portfolio .col-lg-4 {
@@ -936,8 +936,8 @@ h4.blog-title a {
 }
 
 .single-blog .button:hover {
-    background-color: #D7A100;
-    border-color: #D7A100;
+    background-color: #EB9D23;
+    border-color: #EB9D23;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -982,8 +982,8 @@ h4.blog-title a {
 }
 
 .button.blog-btn:hover {
-    background-color: #D7A100;
-    border-color: #D7A100;
+    background-color: #EB9D23;
+    border-color: #EB9D23;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -1052,7 +1052,7 @@ input:focus {
 }
 
 .sidebar-widget ol li a:hover {
-    color: #D7A100;
+    color: #EB9D23;
 }
 
 .sidebar-widget ol.recent-post li {
@@ -1072,7 +1072,7 @@ input:focus {
 }
 
 .sidebar-widget ol.recent-post li a:hover {
-    color: #D7A100;
+    color: #EB9D23;
 }
 
 .blog-content {
@@ -1110,7 +1110,7 @@ input:focus {
 
 .sidebar-widget ol.tags li a:hover {
     color: #000;
-    background-color: #D7A100;
+    background-color: #EB9D23;
 }
 
 
@@ -1132,7 +1132,7 @@ span.blog-date,
 .blockquote {
     padding: 30px;
     margin: 15px;
-    border-left: 10px solid #D7A100;
+    border-left: 10px solid #EB9D23;
 }
 
 .blog-content-footer {
@@ -1304,8 +1304,8 @@ p.comment-date {
 
 .comment-btn .button {
     color: #000;
-    background-color: #D7A100;
-    border-color: #D7A100;
+    background-color: #EB9D23;
+    border-color: #EB9D23;
     -webkit-transition: .3s;
     transition: .3s;
     cursor: pointer;
@@ -1313,7 +1313,7 @@ p.comment-date {
 }
 
 .comment-btn .button:hover {
-    color: #D7A100;
+    color: #EB9D23;
     background-color: #000;
     border-color: #000;
 }
@@ -1394,7 +1394,7 @@ p.comment-date {
 ::::::::::::::::::::::::::::::::::::*/
 
 .single-team {
-    border-bottom: 10px solid #D7A100;
+    border-bottom: 10px solid #EB9D23;
     box-shadow: 0 0 30px #ddd;
     margin-bottom: 30px;
 }
@@ -1420,7 +1420,7 @@ p.comment-date {
 }
 
 .single-team:hover .team-thumb:after {
-    background-color: #D7A100;
+    background-color: #EB9D23;
 }
 
 .team-thumb:after,
@@ -1548,7 +1548,7 @@ p.comment-date {
 }
 
 .price-head h3 {
-    background-color: #D7A100;
+    background-color: #EB9D23;
     font-size: 25px;
     padding: 15px;
 }
@@ -1576,8 +1576,8 @@ p.comment-date {
 }
 
 .single-price-box .button:hover {
-    background-color: #D7A100;
-    border-color: #D7A100;
+    background-color: #EB9D23;
+    border-color: #EB9D23;
 }
 
 
@@ -1657,7 +1657,7 @@ input:-webkit-autofill {
 
 .form-btn .button:hover {
     color: #000;
-    background-color: #D7A100;
+    background-color: #EB9D23;
 }
 
 .form-message {
@@ -1681,7 +1681,7 @@ input:-webkit-autofill {
 .footer-area {
     padding: 30px;
     background-color: #000;
-    border-bottom: 5px solid #D7A100;
+    border-bottom: 5px solid #EB9D23;
 }
 
 .copyright-text a {
@@ -1691,5 +1691,5 @@ input:-webkit-autofill {
 }
 
 .copyright-text a:hover {
-    color: #D7A100;
+    color: #EB9D23;
 }
