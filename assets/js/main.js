@@ -10,9 +10,9 @@
         var scroll = $(window).scrollTop();
 
         if (scroll >= 1) {
-            $(".navbar").addClass("bg-primari");
+            $(".navbar").addClass("bg-dark");
         } else {
-            $(".navbar").removeClass("bg-primari");
+            $(".navbar").removeClass("bg-dark");
         }
     });
 
