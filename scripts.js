@@ -256,45 +256,20 @@ window.onload = testTextModal;
 // but have it add text to the modal-body instead
 function testTextModal() {
   const modalBody = document.querySelector('.modal-body');
-  const text = `wilfried@search_algorithms$ cat 0-main.c
+  const text = `Obi-Wan@Kenobi-MBP$ cat main.c
+  // main.c
+  #include "main.h"
   #include <stdio.h>
-  #include <stdlib.h>
-  #include "search_algos.h"
   
-  /**
-   * main - Entry point
-   *
-   * Return: Always EXIT_SUCCESS
-   */
-  int main(void)
-  {
-      int array[] = {
-          0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-      };
-      size_t size = sizeof(array) / sizeof(array[0]);
-  
-      printf("Found %d at index: %d\n\n", 2, binary_search(array, size, 2));
-      printf("Found %d at index: %d\n\n", 5, binary_search(array, 5, 5));
-      printf("Found %d at index: %d\n", 999, binary_search(array, size, 999));
-      return (EXIT_SUCCESS);
+  int main() {
+      kenobi();
+      grievous();
+      return 0;
   }`;
-  const text2 = `wilfried@search_algorithms$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary`;
-  const text3 = `wilfried@search_algorithms$ ./1-binary 
-  Searching in array: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  Searching in array: 0, 1, 2, 3
-  Searching in array: 2, 3
-  Found 2 at index: 2
-  
-  Searching in array: 0, 1, 2, 3, 4
-  Searching in array: 3, 4
-  Searching in array: 4
-  Found 5 at index: -1
-  
-  Searching in array: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  Searching in array: 5, 6, 7, 8, 9
-  Searching in array: 8, 9
-  Searching in array: 9
-  Found 999 at index: -1`;
+  const text2 = `Obi-Wan@Kenobi-MBP$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c general_kenobi.c general_grievous.c -o kenobi`;
+  const text3 = `Obi-Wan@Kenobi-MBP$ ./kenobi
+  Hello there!
+  General Kenobi!`;
   // create a p tag for each text
   // add each p tag to the modal body
   const p1 = document.createElement('p');
